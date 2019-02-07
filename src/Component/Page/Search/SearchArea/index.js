@@ -23,7 +23,7 @@ const SearchArea = (props) => {
               { 'is-primary': !isEmptyUserName },
               { 'is-danger': isEmptyUserName }
             )}
-            placeholder='Find user'
+            placeholder='請搜尋使用者'
             onChange={onUserNameChange}
             value={userName}
             readOnly={isLoading}
